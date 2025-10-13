@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import './projects/project.css' // ✅ FIXED PATH
+import './projects/Project.css' // ✅ FIXED PATH
 
 const Header = () => {
   const [togle, settogle] = useState(false)
